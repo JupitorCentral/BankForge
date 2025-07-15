@@ -6,7 +6,8 @@
       "Bash(/usr/libexec/java_home:*)",
       "Bash(./gradlew --stop)",
       "Bash(echo $JAVA_HOME)",
-      "Bash(./gradlew:*)"
+      "Bash(./gradlew:*)",
+      "Bash(npm run dev:*)"
     ]
   },
   "enabledMcpjsonServers": [

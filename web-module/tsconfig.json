@@ -23,8 +23,7 @@
     "src",
     "pages",
     "components",
-    "server",
-    "vite.config.ts"
+    "server"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
