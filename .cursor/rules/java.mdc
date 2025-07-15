@@ -1,0 +1,18 @@
+---
+priority: 100
+---
+
+# Java 21 Configuration for BankForge Project
+
+This project uses Java 21 exclusively. All Java-related tooling, compilation, and runtime should use Java 21.
+
+## Java Version Requirements
+- JDK: OpenJDK 21 (Temurin 21.0.7)
+- Location: /Users/kimseongmin/Library/Java/JavaVirtualMachines/temurin-21.0.7/Contents/Home
+- Language Level: Java 21
+
+## Build Tool Configuration
+- Gradle uses Java 21 toolchain (configured in build.gradle.kts)
+- Gradle daemon should use Java 21 (configured in gradle.properties)
+
+This configuration overrides any global IDE settings for Java version.

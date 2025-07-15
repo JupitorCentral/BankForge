@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__perplexity-mcp__perplexity_ask",
+      "Bash(mkdir:*)",
+      "Bash(/usr/libexec/java_home:*)",
+      "Bash(./gradlew --stop)",
+      "Bash(echo $JAVA_HOME)",
+      "Bash(./gradlew:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "perplexity-mcp"
+  ]
+}
